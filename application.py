@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 import models
 from typing import List
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
